@@ -1,0 +1,28 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+    "ensure_newline_at_eof_on_save": true,
+    "font_face": "Monaco",
+    "font_size": 12,
+    "highlight_line": true,
+    "ignored_packages": ["Rust",
+        "Vintage",
+    ],
+    "theme": "Spacegray Eighties.sublime-theme",
+    "trim_trailing_white_space_on_save": true,
+    "rulers": [100],
+    "wrap_width": 100,
+    "word_wrap": true,
+    "line_padding_top": 1,
+    "line_padding_bottom": 0,
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "caret_style": "blink",
+    "mini_diff": false,
+    "scroll_past_end": true,
+    "folder_exclude_patterns": [
+        "__pycache__",
+        "*.egg-info"
+    ],
+}
